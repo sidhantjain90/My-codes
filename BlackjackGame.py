@@ -180,7 +180,7 @@ def draw(canvas):
     # test to make sure that card.draw works, replace with your code below
     global outcome, in_play, card_back, player_score, dealer_score
     
-    canvas.draw_text("BlackJack", [220,50], 50, "Blue")
+    canvas.draw_text("BlackJack", [220,50], 50, "Aqua")
     
     
     player_hand.draw(canvas, [100,300])
