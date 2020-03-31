@@ -163,7 +163,7 @@ def stand():
     if dealer_hand.get_value() > 21:
         outcome = "Dealer Busted. Congrats! You win"
         print "Dealer Busted. Player wins"
-        score +=1
+        player_score +=1
             
     else:
         if dealer_hand.get_value() >= player_hand.get_value() or player_hand.get_value() > 21:
